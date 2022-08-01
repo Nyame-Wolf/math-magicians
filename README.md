@@ -1,3 +1,23 @@
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
+# Math Magicians
+
+**Math magicians project setup.**
+
+## Built With
+
+- HTML
+- CSS
+- Javascript
+- React
+- Jest for testing
+
+### Prerequisites
+
+- vscode or any ide
+- Terminal
+- Node
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +88,28 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Authors
+
+- GitHub: [@Nyame-Wolf](https://github.com/Nyame-Wolf)
+- Twitter: [@mumenyam](https://twitter.com/mumenyam)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mumenya-nyamu-web-designer-data-enthusiast/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
