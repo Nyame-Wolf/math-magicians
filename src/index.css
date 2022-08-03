@@ -31,7 +31,7 @@ body {
   grid-column: 1 / span 2;
 }
 
-button,
+.input,
 input {
   padding: 2em;
   font-size: 1.5rem;
