@@ -1,34 +1,52 @@
-/* eslint-disable react/prefer-stateless-function */
+/* eslint-disable */
 import React from 'react';
+import Input from './Input';
+import calculate from '../logic/calculate'
 
 class Calculator extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      total: null,
+      next: null,
+      operation: null,
+    };
+  }
+handleClick=(e)=>{
+  const data = e.target.value;
+  const calc = calculate(this.state, data)
+  this.setState(calc)
+  console.log(calc)
+  
+}
   render() {
+     const { total, next } = this.state;
     return (
       <div className="grid">
-        <input className="input" value="0" disabled />
-        <button type="button">AC</button>
-        <button type="button">+/-</button>
-        <button type="button">%</button>
-        <button type="button" className="sign1">&divide;</button>
+        <div className="input">{next || total}</div>
+        <Input type="button" value="AC" handleClick={this.handleClick} />
+        <Input type="button" value="+/-" handleClick={this.handleClick} />
+        <Input type="button" value="%" handleClick={this.handleClick} />
+        <Input className="sign1" value="÷" handleClick={this.handleClick} />
 
-        <button type="button">7</button>
-        <button type="button">8</button>
-        <button type="button">9</button>
-        <button type="button" className="sign1">&times;</button>
+        <Input type="button" value="7" handleClick={this.handleClick} />
+        <Input type="button" value="8" handleClick={this.handleClick} />
+        <Input type="button" value="9" handleClick={this.handleClick} />
+        <Input type="button" className="sign1" value="x" handleClick={this.handleClick} />
 
-        <button type="button">4</button>
-        <button type="button">5</button>
-        <button type="button">6</button>
-        <button type="button" className="sign1">-</button>
+        <Input type="button" value="4" handleClick={this.handleClick} />
+        <Input type="button" value="5" handleClick={this.handleClick} />
+        <Input type="button" value="6" handleClick={this.handleClick} />
+        <Input type="button" className="sign1" value="-" handleClick={this.handleClick} />
 
-        <button type="button">1</button>
-        <button type="button">2</button>
-        <button type="button">3</button>
-        <button type="button" className="sign1">+</button>
+        <Input type="button" value="1" handleClick={this.handleClick} />
+        <Input type="button" value="2" handleClick={this.handleClick} />
+        <Input type="button" value="3" handleClick={this.handleClick} />
+        <Input type="button" className="sign1" value="+" handleClick={this.handleClick} />
 
-        <button type="button" className="item0">0</button>
-        <button type="button">.</button>
-        <button type="button" className="sign1">=</button>
+        <Input type="button" className="item0" value="0" handleClick={this.handleClick} />
+        <Input type="button" value="." handleClick={this.handleClick} />
+        <Input type="button" className="sign1" value="=" handleClick={this.handleClick} />
       </div>
     );
   }
