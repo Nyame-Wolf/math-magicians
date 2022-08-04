@@ -2,7 +2,7 @@
 
 # Math Magicians
 
-**Math magicians project A class based calculator app built using react.**
+**Math magicians project A hooks based calculator app built using react.**
 
 ## Built With
 
