@@ -88,7 +88,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Nyame-Wolf/math-magicians/issues).
 
 ## Show your support
 
