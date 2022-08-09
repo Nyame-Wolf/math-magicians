@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Math Magicians
+# Math Magicians Calculator
 
-**Math magicians project A class based calculator app built using react.**
+**Math magicians is A hooks based calculator app built using react. It supports large numbers by using big.js. This calculator supports basic operations of addition,subtraction, multiplication, division and modulus.**
 
 ## Built With
 
@@ -88,7 +88,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Nyame-Wolf/math-magicians/issues).
 
 ## Show your support
 

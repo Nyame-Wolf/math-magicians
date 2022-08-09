@@ -1,13 +1,8 @@
-/* eslint-disable  */
-import React from 'react';
+/* eslint-disable react/prop-types */
 
-export default class Input extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-  render() {
-    return (
-      <input type="button" className={this.props.className} value={this.props.value} onClick={this.props.handleClick} />
-    );
-  }
-}
+const Input = (props) => {
+  const { className, value, handleClick } = props;
+  return (<input type="button" className={className} value={value} onClick={handleClick} />);
+};
+
+export default Input;
