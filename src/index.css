@@ -4,20 +4,23 @@
   box-sizing: border-box;
 }
 
-body {
+html {
   width: 100%;
   height: 100%;
+}
+
+.calc {
   display: flex;
-  justify-content: center;
   align-items: center;
+  gap: 5em;
+  margin-top: 8em;
+  justify-content: center;
 }
 
 .grid {
   display: grid;
   grid-template-columns: auto auto auto auto;
-  width: 50%;
-  max-height: 200px;
-  margin: 3em;
+  padding: 1em;
 }
 
 .input {
@@ -33,7 +36,7 @@ body {
 
 .input,
 input {
-  padding: 2em;
+  padding: 1em;
   font-size: 1.5rem;
 }
 
@@ -43,4 +46,66 @@ input {
 
 button:hover {
   color: red;
+}
+
+h1 {
+  color: #000;
+  margin-right: auto;
+}
+
+.heading {
+  display: flex;
+  background: #d3d3d3;
+  padding: 1em;
+}
+
+.nav {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.link {
+  color: dodgerblue;
+  padding: 5px;
+}
+
+.calc-title {
+  font-size: 3rem;
+}
+
+.quote {
+  font-size: 1.5rem;
+  margin: 1em;
+}
+
+.info {
+  padding: 1em;
+  font-size: 1.5rem;
+}
+
+.link-b {
+  border-right: 2px solid #000;
+  border-left: 2px solid #000;
+  padding: 0 1em 0 1em;
+}
+
+.footer {
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.footer-link {
+  text-decoration: none;
+  cursor: pointer;
+  color: #1ecbd7;
+  font-weight: bold;
 }
