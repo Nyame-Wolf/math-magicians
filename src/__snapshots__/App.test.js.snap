@@ -1,0 +1,172 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App App Snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <div
+          class="heading"
+        >
+          <h1>
+            Math Magicians
+          </h1>
+          <ul
+            class="nav"
+          >
+            <a
+              aria-current="page"
+              class="link active"
+              href="/"
+            >
+              Home
+            </a>
+            <a
+              class="link link-b"
+              href="/calculator"
+            >
+              Calculator
+            </a>
+            <a
+              class="link"
+              href="/quotes"
+            >
+              Quotes
+            </a>
+          </ul>
+        </div>
+        <p
+          class="info"
+        >
+          Nisi cillum exercitation cillum proident occaecat. Exercitation nisi aliquip irure id nostrud aliqua. Dolor aliquip ut occaecat duis labore laborum labore exercitation. Quis et non consequat id cupidatat sunt ut. Reprehenderit cupidatat ipsum est nisi minim culpa irure. Cillum ullamco anim sit est eiusmod et et veniam. Ex mollit sit amet adipisicing do in ex mollit ad.
+        </p>
+        <p
+          class="info"
+        >
+          Nisi cillum exercitation cillum proident occaecat. Exercitation nisi aliquip irure id nostrud aliqua. Dolor aliquip ut occaecat duis labore laborum labore exercitation. Quis et non consequat id cupidatat sunt ut. Reprehenderit cupidatat ipsum est nisi minim culpa irure. Cillum ullamco anim sit est eiusmod et et veniam. Ex mollit sit amet adipisicing do in ex mollit ad.
+        </p>
+        <footer
+          class="footer"
+        >
+          <p>
+            <a
+              class="footer-link"
+              href="https://www.linkedin.com/in/mumenya-nyamu-web-designer-data-enthusiast/"
+            >
+              ©  Mumenya Nyamu 2022
+            </a>
+          </p>
+        </footer>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <div
+        class="heading"
+      >
+        <h1>
+          Math Magicians
+        </h1>
+        <ul
+          class="nav"
+        >
+          <a
+            aria-current="page"
+            class="link active"
+            href="/"
+          >
+            Home
+          </a>
+          <a
+            class="link link-b"
+            href="/calculator"
+          >
+            Calculator
+          </a>
+          <a
+            class="link"
+            href="/quotes"
+          >
+            Quotes
+          </a>
+        </ul>
+      </div>
+      <p
+        class="info"
+      >
+        Nisi cillum exercitation cillum proident occaecat. Exercitation nisi aliquip irure id nostrud aliqua. Dolor aliquip ut occaecat duis labore laborum labore exercitation. Quis et non consequat id cupidatat sunt ut. Reprehenderit cupidatat ipsum est nisi minim culpa irure. Cillum ullamco anim sit est eiusmod et et veniam. Ex mollit sit amet adipisicing do in ex mollit ad.
+      </p>
+      <p
+        class="info"
+      >
+        Nisi cillum exercitation cillum proident occaecat. Exercitation nisi aliquip irure id nostrud aliqua. Dolor aliquip ut occaecat duis labore laborum labore exercitation. Quis et non consequat id cupidatat sunt ut. Reprehenderit cupidatat ipsum est nisi minim culpa irure. Cillum ullamco anim sit est eiusmod et et veniam. Ex mollit sit amet adipisicing do in ex mollit ad.
+      </p>
+      <footer
+        class="footer"
+      >
+        <p>
+          <a
+            class="footer-link"
+            href="https://www.linkedin.com/in/mumenya-nyamu-web-designer-data-enthusiast/"
+          >
+            ©  Mumenya Nyamu 2022
+          </a>
+        </p>
+      </footer>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
